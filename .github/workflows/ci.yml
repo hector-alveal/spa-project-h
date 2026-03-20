@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - names: Instalar las dependencias
+      - name: Instalar las dependencias
         run: npm install
 
       - name: Construir la aplicacion
